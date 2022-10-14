@@ -53,6 +53,8 @@ int endPoint = getNumberFromUser ("Задайте максимально воз�
 int [] randomArray = getRandomArray(arrayLenght, startPoint, endPoint);
 printArray(randomArray);
 Console.WriteLine("]");
+
+
 int countOfNumbers = getCountOfNumbers(randomArray);
 Console.WriteLine();
 printArray(randomArray);
